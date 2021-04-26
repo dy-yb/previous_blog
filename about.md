@@ -4,7 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Name: Daye Yoon
-
-Git: dy-yb
+Daye's blog
 
