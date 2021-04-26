@@ -5,5 +5,6 @@ permalink: /about/
 ---
 
 Name: Daye Yoon
+
 Git: dy-yb
 
