@@ -1,45 +1,35 @@
-# Leonids Gatsby starter
+# NexT
 
-**[Leonids](http://renyuanz.github.io/leonids)** is a clean, fixed sidebar Gatsby starter which is perfect for powering your GitHub hosted blog.
+> 精于心，简于形
 
-### Preview
+NexT 是由 [Hexo NexT](https://github.com/iissnan/hexo-theme-next) 移植而来的 Jekyll 主题。<!--commit: f951075d9b739d26b42472431995fa68d08796aa-->
 
-![theme-preview](./content/assets/theme-preview.gif)
+<a href="http://simpleyyt.github.io/jekyll-theme-next/" target="_blank">在线预览 Preview</a> | <a href="http://simpleyyt.com" target="_blank">Yitao's Blog</a> | <a href="http://theme-next.simpleyyt.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
 
-## What is Leonids?
+[![Join the chat at https://gitter.im/simpleyyt/jekyll-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jekyll-theme-next/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-A blazing fast static blog theme built on Gatsby.js
-
-![lighthouse-performance](./content/assets/lighthouse-performance.png)
-
-- Responsive templates. Looking good on any viewport.
-- Fixed sidebar to provide a good navigation experience while reading.
-- Light/Dark mode.
-- **And** the Leonids (/ˈliːənɪdz/ lee-ə-nidz) are a prolific meteor shower associated with the comet [Tempel-Tuttle](https://en.wikipedia.org/wiki/55P/Tempel%E2%80%93Tuttle).
-
-See a [demo](http://renyuanz.github.io/leonids/) hosted on GitHub pages.
-
-## Getting Started (Recommended)
-
-### Vercel.com deploy button
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Frenyuanz%2Fleonids)
-
-### Netlify CMS deploy button
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/renyuanz/leonids&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
-
-## Local development setup
-
-```
-gatsby new my-blog https://github.com/renyuanz/leonids
-cd my-blog
-gatsby develop
-```
-
-Check out your awesome blog at `http://localhost:8000` and Cheers!
+![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
 
 
-## Legacy Jekyll theme
+## 浏览器支持 Browser support
 
-This project was a Jekyll blog theme, which is archived and not maintained any more. You can still find the source code in [leonids-jekyll](https://github.com/renyuanz/leonids/tree/leonids-jekyll) branch.
+![Browser support](http://iissnan.com/nexus/next/browser-support.png)
+
+
+## 贡献 Contributing
+
+欢迎提交问题与需求，修复代码。
+
+
+## 开发 Development
+
+NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
+
+NexT is built for easily use with elegant appearance. First things first, always keep things simple.
+
+
+## 捐赠
+
+支付宝捐赠链接还是要有的，万一真的有人捐呢。
+
+![支付宝扫码捐赠](http://7lryc0.com1.z0.glb.clouddn.com/a6x049034plyvjm1rvn4h28%20%281%29.png)
