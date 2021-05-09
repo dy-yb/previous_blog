@@ -93,7 +93,7 @@ tags: study swift
     // Song: Never Gonna Give You Up, by Rick Astley
     ```
 
-    - 해당 예제는 `item`을 `Movie`로 다운캐스트 하는 것으로 시작합니다. `item`은 `MediaItem` 인스턴스이기 떄문에 `Movie`도 될 수 있고, `Song`도 될 수 있고, 또는 그냥 `MediaItem`를 일 수도 있습니다. 이 불확실성 때문에 `as?`는 서브 클래스 타입으로 다운캐스트를 시도할 때 옵셔널 값을 반환합니다. `item as? Movie`의 결과 값은 `Movie?`(옵셔널 Movie) 입니다.
+    - 위 예제는 `item`을 `Movie`로 다운캐스트 하는 것으로 시작합니다. `item`은 `MediaItem` 인스턴스이기 떄문에 `Movie`도 될 수 있고, `Song`도 될 수 있고, 또는 그냥 `MediaItem`를 일 수도 있습니다. 이 불확실성 때문에 `as?`는 서브 클래스 타입으로 다운캐스트를 시도할 때 옵셔널 값을 반환합니다. `item as? Movie`의 결과 값은 `Movie?`(옵셔널 Movie) 입니다.
     - `library` 배열에 `Song` 인스턴스로 적용할 때 `Movie`로 다운캐스팅을 하면 실패합니다. 이 것을 해결하기 위해 위 예제는 `Movie?`가 실제로 값을 포함하는지(다운캐스트가 성공했는지) 확인하기 위해 옵셔널 바인딩을 사용합니다. 옵셔널 바인딩은 `if let movie = item as? Movie` 와 같이 작성 할 수 있으며 다음과 같이 이해하면 됩니다. "item이 Movie로 접근을 시도합니다. 만약 성공하면, 반환된 Movie?의 값을 새 임시 상수인 movie에 설정하세요."
     - 만약 다운캐스팅이 성공하면, `movie`의 프로퍼티는 `director`의 이름을 포함한 `Movie` 인스턴스에 대한 설명이 출력되는데 사용될 것입니다. 같은 원리로 `Song` 인스턴스도 체크할 수 있고 `Song` 인스턴스는 `library` 내에서 찾을 때마다 알맞은 설명을(`artist` 이름 포함) 출력할 수 있습니다.
     - 캐스팅은 인스턴스를 수정하거나 값을 변경하지 않습니다. 기본 인스턴스는 동일하게 유지되며 캐스트 된 타입의 인스턴스로 처리, 접근 됩니다.
