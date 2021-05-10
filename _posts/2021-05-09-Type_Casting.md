@@ -46,9 +46,9 @@ tags: study swift
         let library = [
         	Movie(name: "Casablanca", director: "Michael Curtiz"),
         	Song(name: "Blue Suede Shoes", artist: "Elvis Presley"),
-          Movie(name: "Citizen Kane", director: "Orson Welles"),
-          Song(name: "The One And Only", artist: "Chesney Hawkes"),
-          Song(name: "Never Gonna Give You Up", artist: "Rick Astley")
+            Movie(name: "Citizen Kane", director: "Orson Welles"),
+            Song(name: "The One And Only", artist: "Chesney Hawkes"),
+            Song(name: "Never Gonna Give You Up", artist: "Rick Astley")
         ]
         // library의 타입은 타입 추론으로 인해 [MediaItem]이 됩니다.
         ```
