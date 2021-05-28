@@ -35,10 +35,12 @@ func makeIncrementer(forIncrement amount: Int) -> () -> Int {
 - Argument label: 외부에서 함수를 호출 할 때 사용되는 파라미터의 이름, '_'를 사용하여 생략 가능
 - Parameter name: 함수 내부에서 변수로서 사용될 때 불리는 이름
 
+```swift
 func functionName(**argumentLabel** **parameterName**: valueType) -> returnType{
     **parameterName** = 0
 }
 functionName(**argumentLabel**: 100)
+```
 
 인자 값은 runningTotal이 incrementer 함수가 호출되어 반환될 때 마다 얼만큼 증가 될 것인지 파라미터를 통해 지정하고 전달합니다. makeIncrementer 함수는 실제로 값을 증가시키는 기능을 하는 incementer 중첩 함수를 정의 합니다. 이 기능은 단순히 amount를 runningTotal에 값을 더하고 결과를 반환하는 것입니다.
 
