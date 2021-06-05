@@ -1,5 +1,5 @@
 ---
-title: Design Pattern
+title: Design Pattern(진행중)
 date: 2021-06-03 19:59:00
 tags: study swift iOS
 ---
@@ -44,3 +44,8 @@ MVC, MVP, MVVM은 다음 3가지 항목을 가지고 있습니다.
     - Model과 View를 연결하는 부분
     - 일반적으로 View에서 사용자의 동작/요청에 반응하여 Model을 변경하고 Model의 결과로 부터 View를 업데이트함
 
+---
+- References
+    - https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52
+    - https://jiyeonlab.tistory.com/37?category=818842
+    - http://labs.brandi.co.kr/2018/02/21/kimjh.html
