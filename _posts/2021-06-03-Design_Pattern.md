@@ -1,5 +1,10 @@
-## iOS Architecture Patterns
+---
+title: Design Pattern
+date: 2021-06-03 19:59:00
+tags: study swift iOS
+---
 
+## iOS Architecture Patterns
 - MVC, MVP, MVVM, VIPER 쉽게 이해하기
 
 ## 왜 아키텍처를 고려해야 할까?
@@ -39,12 +44,3 @@ MVC, MVP, MVVM은 다음 3가지 항목을 가지고 있습니다.
     - Model과 View를 연결하는 부분
     - 일반적으로 View에서 사용자의 동작/요청에 반응하여 Model을 변경하고 Model의 결과로 부터 View를 업데이트함
 
-이렇게 나누어진 객체들은 이해하기 쉬워지고, 재사용이 용이하며, 독립적인 테스트가 가능해집니다.  
-
-## MVC
-
-### 전통적인 MVC
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c1ac6c1-2fd3-4b23-a232-787b95538d51/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c1ac6c1-2fd3-4b23-a232-787b95538d51/Untitled.png)
-
-여기서 세 객체(View, Controller, Model)는 아주 밀접하게 연결되어 서로를 알고 있습니다. 그렇게 되면 재사용성이 현저하게 떨어집니다. 전통적인 MVC 방식은 iOS 개발에는 맞지 않습니다.
