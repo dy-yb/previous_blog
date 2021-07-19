@@ -4,6 +4,8 @@ date: 2021-07-19 15:52:00
 tags: regular_expression tips
 ---
 
+--
+
 # 정규 표현식을 이용하여 특정 키워드를 포함한 문장 삭제 방법
 
 ### (How to use regular expression to delete sentences which is included specific keyword)
