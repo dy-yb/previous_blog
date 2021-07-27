@@ -8,7 +8,7 @@ tags: swift study vip architecture
 
 [https://clean-swift.com/handbook/](https://clean-swift.com/handbook/) 의 번역입니다. 의역/오역이 있을 수 있습니다. 강의팔이하는 부분들은 임의대로 중략하였습니다.
 
-*Clean Swift는 템플릿을 다운 받으면 편리하게 작성이 가능합니다.([**Clean Swift Template Download](https://medium.com/swift2go/installing-the-clean-swift-template-in-xcode-6b4367006827))***
+*Clean Swift는 템플릿을 다운 받으면 편리하게 작성이 가능합니다.([Clean Swift Template Download](https://medium.com/swift2go/installing-the-clean-swift-template-in-xcode-6b4367006827))
 
 ---
 
