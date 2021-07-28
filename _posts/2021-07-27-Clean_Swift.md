@@ -1,10 +1,18 @@
-[https://clean-swift.com/handbook/](https://clean-swift.com/handbook/) 의 번역입니다. 강의팔이하는 부분들은 임의대로 중략하였습니다.
+---
+title: Clean Swift(VIP)의 장점 및 타 아키텍쳐의 한계점
+date: 2021-07-19 15:52:00
+tags: swift study vip architecture
+---
 
-*Clean Swift는 템플릿을 다운 받으면 편리하게 작성이 가능합니다.([**Clean Swift Template Download](https://medium.com/swift2go/installing-the-clean-swift-template-in-xcode-6b4367006827))***
+-
+
+[https://clean-swift.com/handbook/](https://clean-swift.com/handbook/) 의 번역입니다. 의역/오역이 있을 수 있습니다. 강의팔이하는 부분들은 임의대로 중략하였습니다.
+
+*Clean Swift는 템플릿을 다운 받으면 편리하게 작성이 가능합니다.([Clean Swift Template Download](https://medium.com/swift2go/installing-the-clean-swift-template-in-xcode-6b4367006827))*
 
 ---
 
-# 도대체 MVC는 별론데(ㅋㅋ) 왜 인기가 많을까?
+## 도대체 MVC는 별론데(ㅋㅋ) 왜 인기가 많을까?
 
 iphone이 나온지 10년 정도 되었고 iOS 개발은 이제 더이상 새로운 것이 아니죠. 그동안 MVC는 항상 문제가 있었음에도 불구하고 전형적인 xcode 프로젝트에서 가장 인기 있는 구조입니다.
 
@@ -14,7 +22,7 @@ iphone이 나온지 10년 정도 되었고 iOS 개발은 이제 더이상 새로
 
 MVC를 주로 사용하게되는 또 다른 이유는 당신이 MVC 프로젝트를 상속받았기 때문입니다. 프로젝트가 mvc로 시작되면 mvc에 머물고 mvc로 죽게되죠. 이는 코드가 종양이 아주 커져버려 이미 4기 암 단계에 있는 것과 같은 최악의 상황입니다. 
 
-# MVVM/VIPER에 대해
+## MVVM/VIPER에 대해
 
 분명 다른 아키텍쳐에 대해서도 들어본적이 있을겁니다. 이 문제들이 진짜 현존하기 때문이죠.  MVC는 iOS 개발에 맞지않습니다. MVVM와 VIPER를 써보셨다면, 여기에도 또 그들만의 문제가 있다는걸 알고 계실겁니다.
 
@@ -26,7 +34,7 @@ MVVM의 인기는 반응형 외부 종속 라이브러리(ReactiveCocoa/Rxswift)
 
 그치만 아주 중요한 것을 놓쳤습니다. VIPER는 구조의 중심에 presenter를 두고있으면서 사용자 동작과 모델 업데이트, 그리고 라우팅까지 모두 presenter를 통해 지나가도록 합니다. 이 때문에 presenter는 scene내에 다른 모든 요소들의 레퍼런스를 갖게됩니다. 결과적으로 거대하고 복잡한 presenter를 갖게 되겠죠.
 
-# Clean Swift를 통해 iOS 앱을 체계적으로 개발하는 법
+## Clean Swift를 통해 iOS 앱을 체계적으로 개발하는 법
 
 따를 수 있는 시스템이 있다면 어떨 것 같으세요? ~~이 세상에서 복잡한 view controller 문제를 무너트리고 앱 코드를 작성하는 것 보다 쉽게 unit test를 작성하고 유지보수하도록 만들 수 있습니다.~~
 
@@ -36,7 +44,7 @@ MVVM의 인기는 반응형 외부 종속 라이브러리(ReactiveCocoa/Rxswift)
 
 증명된 시스템은 미리 결론지을 수 있게 만들어줍니다. 끊임없는 리팩토링에 시간을 낭비하지 않게 해줍니다. 
 
-# 시스템 둘러보기
+## 시스템 둘러보기
 
 Clean Swift는 VIPER가 갖고있는 흐름제어 문제를 VIP 사이클을 통해 해결합니다. VIP 사이클은 단방향 흐름제어를 제공하고 시스템의 기초를 만들어줍니다. 
 
