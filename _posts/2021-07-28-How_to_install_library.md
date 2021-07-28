@@ -29,7 +29,7 @@ tags: xcode swift ios study cocoapods
         vi podfile
         ```
 
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2fa3e820-ecaf-47e4-9fd7-91540eb02b22/스크린샷_2021-07-28_오후_7.29.31.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2fa3e820-ecaf-47e4-9fd7-91540eb02b22/스크린샷_2021-07-28_오후_7.29.31.png)
+        ![https://github.com/dy-yb/dy-yb.github.io/blob/e9ae9629e84d90bad08399bc82bc72e7dab8fbd1/assets/images/content/library-installation/terminal-screenshot.png](https://github.com/dy-yb/dy-yb.github.io/blob/e9ae9629e84d90bad08399bc82bc72e7dab8fbd1/assets/images/content/library-installation/terminal-screenshot.png)
 
         ```bash
         # Uncomment the next line to define a global platform for your project
