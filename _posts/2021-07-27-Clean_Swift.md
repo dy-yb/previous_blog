@@ -57,7 +57,7 @@ Clean Swift는 VIPER가 갖고있는 흐름제어 문제를 VIP 사이클을 통
 
 흐름제어는 항상 다음과 같이 됩니다:
 
-![https://github.com/dy-yb/dy-yb.github.io/blob/master/assets/images/content/architecture_vip/VIP_flow.png](https://github.com/dy-yb/dy-yb.github.io/blob/master/assets/images/content/architecture_vip/VIP_flow.png)
+![https://github.com/dy-yb/dy-yb.github.io/blob/04c0336e9ad5bc4f48c060c64b62c4c9afb80017/assets/images/content/architecture_vip/VIP_flow.png](https://github.com/dy-yb/dy-yb.github.io/blob/04c0336e9ad5bc4f48c060c64b62c4c9afb80017/assets/images/content/architecture_vip/VIP_flow.png)
 
 반응형에 대해서는 어떨까요? Clean Swift에서는 Reactive Cocoa나 RxSwift가 필요없습니다. 시그널에 대해서도 배울 필요가 없습니다. VIP 사이클에서 interactor내의 클로저 기반의 비동기 메소드가 주기적인 업데이트를 가능하게 합니다.
 
